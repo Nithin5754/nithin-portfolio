@@ -1452,3 +1452,10 @@ footer .credits {
 footer .credits a {
   color: #fff;
 }
+
+
+/* jquery form */
+ .error {
+   color: red;
+   background-color: #acf;
+ }

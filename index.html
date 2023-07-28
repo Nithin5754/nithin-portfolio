@@ -638,26 +638,27 @@
                       </h5>
                     </div>
                     <div>
-                      <form action="https://formspree.io/f/mgejowdg" method="POST">
+                      <form action="https://formspree.io/f/mgejowdg" method="POST" id="message-form">
                         <div class="row">
                           <div class="col-md-12 mb-3">
                             <div class="form-group">
-                              <input type="text" name="Name" class="form-control" id="name" placeholder="Your Name" required>
+                              <input type="text" name="Name" class="form-control" id="name" placeholder="Your Name">
                             </div>
                           </div>
                           <div class="col-md-12 mb-3">
                             <div class="form-group">
-                              <input type="email" class="form-control" name="Email" id="email" placeholder="Your Email" required>
+                              <input type="email" class="form-control" name="Email" id="email" placeholder="Your Email">
                             </div>
                           </div>
                           <div class="col-md-12 mb-3">
                             <div class="form-group">
-                              <input type="text" class="form-control" name="Subject" id="subject" placeholder="Subject" required>
+                              <input type="text" class="form-control" name="Subject" id="subject" placeholder="Subject">
                             </div>
                           </div>
                           <div class="col-md-12">
                             <div class="form-group">
-                              <textarea class="form-control" name="Message" rows="5" placeholder="Message" required></textarea>
+                              <textarea class="form-control" name="Message" rows="5" placeholder="Message
+                              " ></textarea>
                             </div>
                           </div>
                          
@@ -736,6 +737,15 @@
   <script>
     AOS.init();
   </script>
+
+  <!-- jquery -->
+  <script src="https://code.jquery.com/jquery-3.7.0.js" integrity="sha256-JlqSTELeR4TLqP0OG9dxM7yDPqX1ox/HfgiSLBj8+kM="
+    crossorigin="anonymous"></script>
+    <!-- jquery validation -->
+
+    <script src="https://cdn.jsdelivr.net/npm/jquery-validation@1.19.5/dist/jquery.validate.js"></script>
+
+    <script src="./assets/js/script.js"></script>
 
 </body>
 
